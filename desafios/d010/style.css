@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: "ramon";
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(158, 231, 158); 
+    text-align: justify;
+    
+}
+h1#principal {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 22px 22px 10px 22px;
+    padding: 25px 25px 10px 25px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    
+}
+h2#subtitulo {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 10px 450px 10px 450px;
+    font-weight: lighter;
+}
+a.menu {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px ;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+header {
+    background-image: linear-gradient(180deg, rgba(116, 202, 116, 0.774),rgb(39, 121, 39), rgba(5, 66, 5, 0.644));
+    margin: -8px -8px 10px -8px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.534);
+}
+main {
+    background-color: white;
+    margin: -10px 250px 10px 250px;
+    padding: 10px 10px 10px 10px ; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.616)
+}
+h1#introdução {
+    font-family: "ramon", Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(4, 107, 4);
+}
+h2.t2 {
+    background-image: linear-gradient(90deg, rgb(117, 218, 117), rgb(177, 218, 177), rgb(255, 255, 255));
+    padding: 1px 1px 1px 5px;
+    font-size: 18px;
+    font-family:  "ramon", Helvetica, sans-serif;
+    color: rgb(4, 107, 4);
+}
+p.img {
+    text-align: center;
+}
+p#video {
+    text-align: center;
+    background-color: rgb(1, 43, 1);
+    margin: 10px -10px 10px -10px;
+}
+section#mais {
+    background-color: rgb(153, 228, 153);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 10px 10px 10px ;
+}
+ul.lista {
+    margin: 10px 100px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline
+}
+.item::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 1px 10px;
+    background-image: url(https://cdn.icon-icons.com/icons2/692/PNG/512/seo-social-web-network-internet_317_icon-icons.com_61541.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+h2#escuro {
+    background-color: rgb(13, 167, 103);
+    color: white;
+    font-size: 16px;
+    margin: 10px -10px 10px -10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+p.paragrafo {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 0px 10px 0px 10px ;
+}
+p.paragrafo2 {
+    text-align: justify;
+    text-indent: 10px;
+}
+footer#rodape {
+    background-color:rgb(2, 59, 2);
+    text-align: center;
+    color: white;
+    margin: 5px -10px -10px -10px;
+    padding: 5px 0px 5px 0px;
+}
+a.link {
+    text-decoration: none;
+    color: rgb(4, 56, 4);
+    font-weight: bold;
+}
+a.link::after {
+    content: '';
+    position: relative;
+    left: 0;
+    top: -4px;
+    padding: 5px 10px 6px 6px;
+    background-image: url(https://cdn.icon-icons.com/icons2/2550/PNG/512/link_icon_152591.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0px;
+    font-size: 6px;
+    
+}
+a.link:hover {
+    text-decoration: underline;
+    color: black;
+}
+span.green {
+    color: rgb(3, 61, 3);
+    font-weight: bold;
+}
+    

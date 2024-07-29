@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando Com Links</title>
+</head>
+<body>
+    <h1>Links Externos</h1> <!--Links externos são links que te encaminham para outros sites-->
+    <p>Voce pode acessar o <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositorio publico do Guanabara no GitHub</a></p>
+    <p>Voce pode tambem acessar o <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external">canal do Youtube do Guanabara</a></p>
+    <!--Nos temos dois atributos para Links externos: "target="blank" (ao invés do link sobrepor ele vai abrir o link em uma aba diferente) e rel="external" (para indicar que é um link externo)-->
+    <h1>Usando Links Internos</h1> <!--Links que levam a outros lugares dentro do nosso proprio site, por ser uma movimentação interna, não é necessario muitas vezes colocar a URL inteira-->
+    <p>Essa é a primeira pagina do nosso arquivo HTML, se quisermos acessar a segunda pagina clique no Link <a href="pag002.html" rel="next" target="_self">Pagina 002</a></p>
+    <!--Temos alguns atributos usados como: "rel="next""(indicando que a proxima pagina é a pagina seguinte) e "rel="prev""(indicando que vc está voltando a pagina que estava)-->
+    <p>Você tambem pode acessar nossa terceira pagina do arquivo, dentro da pasta noticia usando o link <a href="noticias/pagina003.html" rel="next" target="_self">Pagina 003</a></p>
+    <!--Se observamos, os arquivos dessa pagina estão dentro de uma pasta, logo o caminho usado para acessar é diferente por isso a atenção na hora de colocar-->
+    <h1>Links Para Dowload</h1>
+    <p>
+        <ul>
+            <li>
+                <a href="livros/meulivro.pdf" type="application/pdf" download="meulivro.pdf"
+                target="_blank">Link para Dowload Livro em formato PDF</a>
+            </li>
+            <li><a href="livros/meulivro.zip" type="application/zip" download="meulivro.zip">Link para Dowload do Livro em formato ZIP</a></li>
+        </ul>
+    </p>
+</body>
+</html>
