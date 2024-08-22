@@ -11,6 +11,7 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
     td, th {
         border: 1px solid black;
@@ -22,17 +23,25 @@
         padding: 10px;
         background-color: lightgray;
     }
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
     thead, tfoot {
         background-color: gray;
         color: white;
     }
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+    } /*efeito zebrado*/
     td.num {
         text-align: right;
     }
     </style>
 </head>
 <body>
-    <h1>Uso de TABELAS GRANDES</h1>
+    <h1>Uso de TABELAS GRANDES</h1> 
     <!--
     ANATOMIA PARA TABELAS GRANDES
     TABLE
