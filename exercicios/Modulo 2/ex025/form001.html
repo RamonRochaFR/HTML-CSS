@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!--
+    Todo formulario deve ser feito dentro da tag <form></form>. 
+    Podemos usar o parametro autocomplete="off" para desativar o auto preenchimento.
+    <label></label> serve para criar uma relação entre o nome e o objeto.
+    Existe dois metodos de envio de informaçaõ 1°-GET coloca as informações na URL 2°-POST os dados não vão aparecer na URL. 
+    GET - Seus dados não são sensiveis. Só pode enviar até 3000 bytes (mais ou menos 3000 letras)
+    POST - Dados sensiveis, mais de 3000 bytes e se quiser enviar fotos. 
+    -->
+    <form action="cadastro.php" method="POST" autocomplete="off"> 
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</body>
+</html>
