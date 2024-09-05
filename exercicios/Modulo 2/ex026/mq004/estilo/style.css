@@ -12,8 +12,9 @@ body, html {
 }
 body {
     background: black url(../imagens/back-phone.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 main {
     background-color: rgba(255, 255, 255, 0.842);
@@ -31,7 +32,6 @@ h1 {
 img {
     display: block;
     margin: auto;
-    background-repeat: no-repeat;
 }
 img#phone {display: block;}
 img#tablet {display: none;}
