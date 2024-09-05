@@ -31,6 +31,7 @@ h1 {
 img {
     display: block;
     margin: auto;
+    background-repeat: no-repeat;
 }
 img#phone {display: block;}
 img#tablet {display: none;}
